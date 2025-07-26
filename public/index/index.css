@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Cute Dog';
-    src: url(/Users/hannah/CS3_1stQtrPortfolio/fonts/cute_dog.otf) format('opentype');
+    src: url(Cute\ Dog.otf) format('opentype');
 } 
 body{
     background-color: #f0f8ff;
