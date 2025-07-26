@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'pixelhead';
+    src: url(LLPIXEL3.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'pixelbody';
+    src: url(Minecraft.ttf) format('truetype');
+}
+body{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#Herta{
+    float: left;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+#Kaeya{
+    float: right;
+    padding-top: 50px;
+    padding-right: 20px;
+}
+.Intro{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    font-size: 30px;
+    font-family: 'pixelhead';
+    text-align: center;
+}
+.details{
+    padding: 20px;
+    border-radius: 10px;
+    background-color:#feb4ef;
+    font-family: 'pixelbody';
+    font-size: 25px;
+    text-align:left;
+
+}
+.hobbies{
+    padding: 20px;
+    border-radius: 10px;
+    background-color:#f0f8ff;
+    font-size: 25px;
+    font-family: 'pixelbody';
+    text-align:left;
+
+}
+.interests{
+    padding: 20px;
+    border-radius: 10px;
+    background-color:#e0ffe8;
+    font-size: 25px;
+    font-family: 'pixelbody';
+    text-align:left;
+
+}
+.bye{
+    text-align:center;
+    font-family: 'pixelhead';
+    background-color: antiquewhite;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+button {
+    font-size: 30px;
+    font-family: 'pixelbody';
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
