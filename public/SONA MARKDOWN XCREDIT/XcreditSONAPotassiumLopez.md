@@ -46,3 +46,12 @@
 ### | WATCH THE 2025 SONA HERE:
 [SONA2025](https://youtu.be/YOoX7EVIOMA?si=saoadWzaKL7_TjXO)
 ![VIEW SONA 2025](SONA2025.png)
+
+###### Citations:
+* DOEgovph.(2022, April 22).Guidelines on Net-Metering in the Philippines.[Video].https://www.youtube.com/watch?v=ohR13ILCBu4
+* Inocencio, Syrah Vivien .(2025, July 28).Inside the SONA: What happens during a State of the Nation Address in the Philippines?.Tatler.https://www.tatlerasia.com/power-purpose/others/what-to-know-about-state-of-the-nation-address
+* Meralco.(n.d.)What is Net-Metering?.https://company.meralco.com.ph/advocacies/solar-net-metering/what-is-net-metering
+* Philippine Star.(2025, July, 28).PBBM FOURTH SONA SUMMARY.https://www.facebook.com/PhilippineSTAR/photos/pbbm-fourth-sona-summary-here-are-the-highlights-of-president-marcos-fourth-stat/1220051006825443
+* Piquero, Pia.(2025, July 26).What is SONA, and why should you care about PBBM’s 4th address?.CDN Life!.https://cebudailynews.inquirer.net/648927/what-is-sona-and-why-should-you-care-about-pbbms-4th-address
+* 
+* Solaric.(n.d.)NET METERING: THE PROCESS AND WHY IT TAKES TIME.https://solaric.com.ph/blog/process-net-metering/#:~:text=All%20About%20Net%20Metering,to%20the%20customer%27s%20electric%20bill.”
