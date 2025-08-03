@@ -27,6 +27,9 @@ body{
     line-height: 20%;
     padding: 20px;
 }
+ul {
+    display: inline-block;
+}
 body{
     background-color: #fffcec;
 }
