@@ -20,6 +20,7 @@
  }
 .mainBody{     
     position: fixed;
+    width: 100%;
     top: 35%;
     bottom: 25%;
     font-family: "coffeeBody";
