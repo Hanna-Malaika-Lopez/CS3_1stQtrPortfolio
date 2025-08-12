@@ -14,11 +14,18 @@
         <div class="mainBody">
         <h2>How much coffee do you need if you do 2 cups a day starting from 13y/o?</h2>
         <script>
-            let age = '13', maxAge = '80';
-            let numPerDay = '2';
-            let totalRequired = (numPerDay * 365) * (maxAge - age);
-            document.write("You will need " + totalRequired + " to last you until the ripe old age of " + maxAge+".");
-            console.log("You will need " + totalRequired + " to last you until the ripe old age of " + maxAge+".");
+            let age=window.prompt("How old are you?", "0")
+            let numPerDay=window.prompt("How many cups of coffee do you drink?","0")
+            let maxAge=window.prompt("How old will you live until", "0")
+            let  totalRequired = (numPerDay * 365) * (maxAge - age) 
+
+            let sure= window.confirm("Are you sure your imput is correct?")
+
+            if (sure==true){
+                document.write("You will need " + totalRequired + " to last you until the ripe old age of " + maxAge + "y/o")
+            } else{
+                document.write("Do you drink coffee?")
+            }
         </script>
         </div>
         <div class="footer">
