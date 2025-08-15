@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meal Price, Tip and Service Charge</title>
+    </head>
+    <body>
+        <h2> Q1 3rd Graded Exercise submitted by Hannah Malaika Lopez of 9 Potassium </h2>
+        <div id="input">
+            <label for="mealPrice">Meal Price:</label>
+            <input id="mealPrice">   
+            <br>
+            <label for="tip">Tip:</label>
+            <input id="tip">
+            <br>
+            <label for="serviceCharge">Service Charge:</label>
+            <input id="serviceCharge">
+            <br>
+            <button id="btn_submit">Submit</button>
+        </div>
+        <script type="text/javascript">
+            const btn = document.getElementById("btn_submit");
+            const age =document.getElementById("input");
+            btn.addEventListener('click', totalMeal);
+            
+            function totalMeal(){
+                document.getElementById("input") mealPrice + tip + (%serviceCharge / 100 * mealPrice);
+            }
+
+        </script>
+    </body>
+</html>
