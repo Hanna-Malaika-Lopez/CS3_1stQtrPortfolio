@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+<header>
+   <h2> Q1 3rd Graded Exercise Submitted by Hannah Malaika B. Lopez of 9-Potassium</h2>
+</header>
+<div class="content">
+    <h3>Guess The Number: ***</h3>
+    <h3>The Number is Between 1-100</h3>
+    <label for="makeGuess">Enter your Guess:</label>
+    <input type="number" id="makeGuess"><br><br>
+    <button id="button" onclick="checkIt()">Guess!</button>
+    <p id="result">Result:</p>
+</div>
+    <script>
+        var dNumber = Math.floor(Math.random() * 100) + 1; 
+        const hula = document.getElementById("makeGuess");
+
+        function checkIt() {
+        const guess = Number(hula);
+        const ans = Number(dNumber);
+        if (ans==guess){
+            document.getElementById("result").textContent=("Result: You are correct!");
+        } else if (ans>guess) {
+            document.getElementById("result").textContent=("Result: Lower");
+        } else{
+            document.getElementById("result").textContent=("Result: Higher");
+        }
+        }
+    </script>
+</body>
+
+</html>
