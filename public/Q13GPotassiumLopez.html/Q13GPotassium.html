@@ -1,32 +1,50 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <meta charset="UTF-8">
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Q13GPotassium.css">
+    <link rel="icon" type="image/x-icon" href="Soup_icon.png">
+    <title>Q13GPotassiumLopez</title>
+</head>
 <body>
-
+    <header>
     <h2> Q1 3rd Graded Exercise submitted by Hannah Malaika B. Lopez of 9-Potassium</h2>
-    <h3>Guess the Number: *** <br>
-    The number is from 1-100</h3>
+    </header>
+    <div class="content">
+    <h2>Guess the Number: *** </h2>
+    <h4>The number is from 1-100</h4>
     <label for="makeGuess">Enter your Guess:</label>
-    <input id="makeGuess"><br><br>
+    <input id="makeGuess" type="number"><br><br>
     <button id="confirmGuess">Check It!</button><br>
     <p id="result">Result:</p>
+    <br>
+    </div>
+    <footer>
+       <p>&copy;HMBLOPEZ</p>
+       <p>WW3 Schools(n.d.).<i>CSS background-position Property</i>https://www.w3schools.com/cssref/pr_background-position.php</p>
+       <p>Thank you Sir Roy for helping me:D</p>
+    </footer>
 
     <script>
         var dNumber = Math.floor(Math.random() * 100) + 1; 
         let yourGuess = document.getElementById("makeGuess");
         let btn = document.getElementById("confirmGuess");
 
-        document.getElementById("btn").addEventListener("click", checkIt)
+        btn.addEventListener("click", checkIt)
 
     function checkIt() {
-        let guess = parseInt(yourGuess);
+        let guess = parseInt(yourGuess.value);
         let ans = dNumber;
 
         if (guess==ans){
-            document.getElementById("result")= "Result: You are Correct!";
+            document.getElementById("result").textContent= "Result: You are Correct!";
         } else if (guess<ans){
-            document.getElementById("result")= "Result: Higher";
-        } else (guess>ans){
-            document.getElementById("result")= "Result: Lower";
+            document.getElementById("result").textContent= "Result: Higher!";
+        } else if (guess>ans){
+            document.getElementById("result").textContent= "Result: Lower!";
+        } else {
+            document.getElementById("result").textContent= "ERROR";
         }
     }
     </script>
@@ -34,4 +52,3 @@
 </body>
 
 </html>
-
