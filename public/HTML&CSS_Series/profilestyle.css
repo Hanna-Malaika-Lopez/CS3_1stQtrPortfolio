@@ -1,0 +1,31 @@
+@font-face{
+    font-family: 'quiapo';
+    src: url('Quiapo_Free.ttf')
+}
+body {
+    background-image: url('kkkbg.jpg');
+    background-size: 1600px, 900px;
+    font-family: 'quiapo';
+}
+.grid {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+.profile {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1em;
+  width: 200px;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgb(255, 255, 255, 0.5);
+}
+.profile img {
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+h1{
+    text-align: center;
+}
