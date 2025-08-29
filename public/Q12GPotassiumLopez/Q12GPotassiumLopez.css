@@ -1,0 +1,36 @@
+.header{
+    background-color: #e9692c;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 50px;
+    position:fixed;
+    top: 0px;
+    width:100%;
+}
+.form{
+    text-align: center;
+    position: fixed;
+    top: 55%;
+    left: 25%;
+    right: 25%;
+    bottom:50%;
+    
+}
+.context{
+    font-size: 20px;
+    text-align:center;
+    position: fixed;
+    top: 40%;
+    left: 25%;
+    right: 25%;
+}
+.footer{
+    background-color: #e9692c;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    position:fixed;
+    bottom: 0px;
+    width:100%;
+}

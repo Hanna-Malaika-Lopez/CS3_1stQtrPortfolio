@@ -1,0 +1,26 @@
+@font-face{
+    font-family: 'gameshowFont';
+    src: url('Gameshow.ttf');
+}
+header{
+    background-image: url("gameshow.png");
+    background-position: center;
+    background-position: fixed;
+    font-family: 'gameshowFont';
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    padding: 30px;
+}
+.content{
+    text-align: center;
+    font-size: 30px;
+}
+footer{
+    color: #FFFFFF;
+    font-family: 'gameshowFont';
+    text-align: center;
+    padding: 5px;
+    background-image: url("gameshow.png");
+    background-position: center;
+}
