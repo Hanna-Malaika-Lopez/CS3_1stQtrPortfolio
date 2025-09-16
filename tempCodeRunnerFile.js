@@ -1,12 +1,10 @@
 process.stdin.on('data', function (data)  {
     let num = Number(data.toString().trim()); 
 
-    let R=[]
-    for(i=0; i<=num; i++){
-        R.push(i);
+    let add;
+    for(let i=1; i<=num; i+=add){
+        console.log(i);
+        add++;
     }
-    for (i=1; i<=R.length; update) {
-
-     }
     process.exit(); 
   });

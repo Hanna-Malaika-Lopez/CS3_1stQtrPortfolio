@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Guess My Word!</title>
+</head>
+<body>
+<h1>Guess My Word</h1>
+<p id="wordDisplay"></p>
+<input type="text" id="guessInput" maxlength="1">
+<button onclick="makeGuess()">Guess</button>
+<p id="message"></p>
+<p id=setOfAllGuessedNum>Guessed Letters: <span id=letters></span></p>
+<h6>psst...wanna hint? try highlighting the full page</h6>
+<h6>HAHA! You found the hint! The word is case sensitive.</h6>
+</body>
+<script>
+  let secretWord = ["H", "a", "p", "p","y","G","o","L","u","c","k","y","H","a","n","n","a","h"];
+  let guessedWord = ["_", "_", "_", "_","_", "_", "_", "_","_", "_", "_", "_","_", "_", "_", "_","_", "_"];
+  let allGuesses=[];
+
+  document.getElementById("wordDisplay").textContent = guessedWord.join(" ");
+
+function makeGuess() {
+    let guess = document.getElementById("guessInput").value;
+
+    if(allGuesses.includes(guess)){
+          document.getElementById("message").textContent = "Letter has already guessed:P!";
+          document.getElementById("guessInput").value = "";
+          return;
+    }
+    allGuesses.push(guess);
+    document.getElementById("letters").textContent=allGuesses.join("-");
+
+    let correct = false;
+    for (let i = 0; i < secretWord.length; i++) {
+      if (secretWord[i] === guess) {
+        guessedWord[i] = guess;
+        correct = true;
+      }
+    }
+
+    document.getElementById("wordDisplay").textContent = guessedWord.join(" ");
+    if(correct){
+      document.getElementById("message").textContent = "YOU GOT IT CORRECT!!!";
+    }else{
+      document.getElementById("message").textContent = "Sorry you got it wrong:(";
+    }
+    document.getElementById("guessInput").value=""
+  }
+</script>
