@@ -1,7 +1,12 @@
-for(let i=0; i<=20; i++){
-    if(i%2==1){
-        continue;
-    }else{
-        console.log(i);
+process.stdin.on('data', function (data)  {
+    let num = Number(data.toString().trim()); 
+
+    let R=[]
+    for(i=0; i<=num; i++){
+        R.push(i);
     }
-}
+    for (i=1; i<=R.length; update) {
+
+     }
+    process.exit(); 
+  });

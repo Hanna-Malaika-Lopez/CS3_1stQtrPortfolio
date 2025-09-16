@@ -1,0 +1,25 @@
+<h1>Guess a Letter</h1>
+<input type="text" id="letterInput" maxlength="1">
+<button onclick="addGuess()">Guess</button>
+<p>Guessed letters: <span id="guesses"></span></p>
+
+<script>
+  let guessedLetters = [];
+
+  function addGuess() {
+    let letter = document.getElementById("letterInput").value;
+    if(duplicatenono(letter)){
+    guessedLetters.push(letter);
+    document.getElementById("guesses").textContent = guessedLetters.join(", ");
+    document.getElementById("letterInput").value = "";
+  }
+}
+  function duplicatenono(letter){
+    for(i=0; i<guessedLetters.length; i++){
+        if(guessedLetters[i]===letter){
+            return false;
+        }
+    }
+    return true;
+  }
+</script>

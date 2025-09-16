@@ -1,0 +1,13 @@
+<h1>My Favorite Numbers</h1>
+<ul id="numberList"></ul>
+
+<script>
+  let list = document.getElementById("numberList");
+  for (let i = 1; i <= 10; i++) {
+    if(i%2==1 || i==1){
+        continue
+    }else{
+        list.innerHTML += `<li>Number ${i}</li>`;
+  }
+  }
+</script>

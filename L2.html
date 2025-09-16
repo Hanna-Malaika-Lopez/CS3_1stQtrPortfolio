@@ -1,0 +1,12 @@
+<h1>My Favorite Fruits</h1>
+<ul id="animalsList"></ul>
+
+<script>
+  let animals = ["dog", "cat", "horse", "panda"];
+  let list = document.getElementById("animalsList");
+  animals.push("cockatrice");
+
+  for (let i = 0; i < animals.length; i++) {
+    list.innerHTML += `<li>${animals[i]}</li>`;
+  }
+</script>
