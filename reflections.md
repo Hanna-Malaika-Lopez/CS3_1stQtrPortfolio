@@ -2,9 +2,13 @@
 ##9-Potassium
 
 ###List and describe at least 5 topics that we discussed in class that you know very well. Each description should be at least 1 paragraph with two to five sentences.
+
 1. **Loops**- Loops are functions that can do repeated tasks which are specifies within the loop function. 
 The number of iterations can be either pre-defined or continue until a specified condition is met (which is specified in the loop parameters). 
 There are many types and subtypes of loops; the most common loops are: *for* **loops **, which have a pre-defined number of iterations; *while* **loops ** which do **not** have a pre-defined number of iterations, but rather keep looping until a specific condition is met; *do-while* **loops** are like *while* loops, but does the task at least once before looking at the condition to be met.
 
-2. **What is JavaScript >:)**- JavaScript is a dynamic programming language, meaning it's SMART! ! ! ! ! It can tell that "10" and 10 are the same even if they are different data types,
-3. and it can hoist (hoist is basically JavaScript can look for the value of the variable almost anywhere in the code) even if it was not initially defined (except when using let). 
+2. **What is JavaScript >:)**- JavaScript is a dynamic programming language, meaning it's SMART! ! ! ! ! It can tell that "10" and 10 are the same even if they are different data types, and it can hoist variables (hoist is basically JavaScript can look for the value of the variable almost anywhere in the code) even if they were not initially defined (except when using let). 
+
+3. **Arithmetic Operations**- Javascript lets its users do calculations as it accepts standard arithmetic operations. The signs for addition, subtractiom, multiplication and division are +, -, *, /, respectively. You can also get the remainder when dividing by using the % (modulo) sign. You can also declare a variable then change its values with the arithmetic operations by inputting the operator sign then equals (ex. declare x=1 and y=5; next input x+=y, which is equivalent to x=x+y and changes the value of x into 6). Lastly, you can increment and decrement using ++ and -- respectively.
+
+4. **JavaScript Data Types**- Javascript has six data types, I am most familliar with only five as the sixth (known as symbol) is a datatype I don't use that often and don't completely understand. The first data type is the **string** which is used for word and letters, basically it is used for text. The second data type is **number**, which is self explanatory, it is the data type for numbers and can be used for arithmetic operations. Note that a number with quotation marks, whether double or single are considered strings (ex. '90' , "10), but depending on the context, Javascript may interpret it as a number (ex. "10" - 8 will still be equal to 2). The third data type is boolean, which is usually used with logical operators (&&, ||, ==, !)
