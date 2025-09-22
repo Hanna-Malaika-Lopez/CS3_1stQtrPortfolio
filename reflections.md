@@ -44,7 +44,6 @@ To help myself understand these topics, I would:
 Effective:
 1. 6th Graded Exercise-It helped m understand Arithmetic Operations more, as well as how it can be used with for loops. It also helped me understand how for loops processs information. It really helped me since it was explained to me by my teacher and batchmate.
 2. 7th Graded Exercise- This one also helped me understand Arithmetic Operations, as well as how the return keyword is used, though I still need more practice in using return.
-<br/>
 Least Effective:
 1. 4th Graded Exercise-It helped me, but the reason why it wasn't that effective for me to understand case-switch control statements is because I already understood well how case-switch worked.
 2. L4 Bonus Exercise-The reason why it wasn't very effective for me in understanding arrays and functions is because I still don't understand how it works entirely and thet's why I wasn't able to add all the features I wanted to add to my guessing game website.
