@@ -1,6 +1,7 @@
 #Reflection by: Hannah Malaika B. Lopez
+<br/>
 ##9-Potassium
-
+<br/>
 ###List and describe at least 5 topics that we discussed in class that you know very well. Each description should be at least 1 paragraph with two to five sentences.
 <br/>
 1. **Loops**- Loops are functions that can do repeated tasks which are specifies within the loop function. 
