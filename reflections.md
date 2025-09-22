@@ -29,6 +29,7 @@ keyword; it is a flexible way of declaring a variable. The second way is using t
 
 5.**HTML Events**- They are used to trigger a block of code when a desired event occurs (like page loading or clicking). I need more practice with this as I mostly only used onclick and used the addEventListener function; I haven't used onload yet.
 <br/>
+
 ###Describe on what will be your plan of action in order to help yourself in understanding further the topics listed on the second items.
 <br/>
 To help myself understand these topics, I would: 
